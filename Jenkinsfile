@@ -4,7 +4,7 @@ agent any
  stage ('checkout') {
    steps {
        echo 'CheckOut automation'
-       sh 'git checkout -b cicd-pipeline-gradle --no-daemon'
+       sh 'git checkout -b cicd-pipeline-gradle'
       }
     } 
   stage ('build') {
