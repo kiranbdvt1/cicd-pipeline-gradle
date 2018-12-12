@@ -8,5 +8,5 @@ agent any
         archiveArtifacts artifacts:'dist/sampleApp.zip'       
       }
     } 
-}
+  }
 }
